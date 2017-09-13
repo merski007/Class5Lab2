@@ -4,7 +4,7 @@ public class Bicycle {
     private int frameSize;
     private String frameMaterial;
     
-    public double getFrameCost(){
+    public int getFrameCost(){
         return 0;   //set method in child classes
     }
 
@@ -24,7 +24,7 @@ public class Bicycle {
     }
 
     public void setFrameMaterial(String frameMaterial) {
-        if(frameMaterial != null || frameMaterial.isEmpty()){
+        if(frameMaterial == null || frameMaterial.isEmpty()){
             throw new IllegalArgumentException("cannot be left blank");
         }
         this.frameMaterial = frameMaterial;
