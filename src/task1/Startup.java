@@ -1,6 +1,6 @@
 package task1;
 
-public class StartUp {
+public class Startup {
     public static void main(String[] args) {
         
     }
