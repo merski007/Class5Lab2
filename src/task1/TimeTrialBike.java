@@ -8,7 +8,7 @@ public class TimeTrialBike extends Bicycle {
     public int getFrameCost(){
         int cost;
         
-        if(this.getFrameMaterial() == "Carbon"){
+        if(this.getFrameMaterial().equalsIgnoreCase("Carbon")){
             cost = FRAME_MAT_CARBON;
         }
         else{
