@@ -1,5 +1,5 @@
 package task1;
 
-public class RoadBike {
+public class RoadBike extends Bicycle {
     
 }

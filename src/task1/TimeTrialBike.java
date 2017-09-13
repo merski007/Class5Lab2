@@ -1,5 +1,5 @@
 package task1;
 
-public class TimeTrialBike {
+public class TimeTrialBike extends Bicycle {
     
 }
