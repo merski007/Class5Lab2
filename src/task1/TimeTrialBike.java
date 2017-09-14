@@ -1,8 +1,8 @@
 package task1;
 
 public class TimeTrialBike extends Bicycle {
-    private int FRAME_MAT_CARBON = 1000;
-    private int FRAME_MAT_ALUMINUM = 300;
+    private final int FRAME_MAT_CARBON = 1000;
+    private final int FRAME_MAT_ALUMINUM = 300;
     
     @Override
     public int getFrameCost(){
